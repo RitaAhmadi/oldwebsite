@@ -2,8 +2,13 @@
  * Variables used throughout the theme.
  * To adjust anything, simply edit the variables below and rebuild the theme.
  ******************************************************************************/
-
 @use "sass:color";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap');
+
+$font-serif: 'Cormorant Garamond', Georgia, serif;
+$font-sans: 'Jost', sans-serif;
 
 // Colors
 $red-color: #ff3636 !default;
@@ -23,26 +28,19 @@ $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
-
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
 $grey-color-dark: #1c1c1d;
 $grey-900: #212529;
-
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
-
 // Theme colors
-
 $code-bg-color-light: rgba($purple-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
-
 // Font awesome location
 $fa-font-path: "../webfonts";
-
 // Tabler icons location
 $ti-font-path: "../fonts";
-
 // Back To Top button config
 $back-to-top-z-index: 10;
 $back-to-top-bottom: 30px;
