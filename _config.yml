@@ -68,9 +68,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-bluesky_url: https://bsky.app/profile/ritaahmadi.bsky.social# your bluesky URL
+bluesky_url: https://bsky.app/profile/ritaahmadi.bsky.social # your bluesky URL  [FIX 2: added space before comment]
 gitlab_username: # your GitLab user name
-linkedin_username:  fatimah-rita-ahmadi # your LinkedIn user name
+linkedin_username: fatimah-rita-ahmadi # your LinkedIn user name  [FIX 3: removed extra leading space]
 scholar_userid: tJrPvagAAAAJ # your Google Scholar ID
 contact_note: >
    Please reach out to me via fatimah.rita.ahmadi@gmail.com  
@@ -80,7 +80,7 @@ contact_note: >
 # -----------------------------------------------------------------------------
 
 newsletter:
-  enabled: true
+  enabled: false # [FIX 5: disabled since endpoint is empty — set to true and add endpoint URL when ready]
   endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
   # https://loops.so/docs/forms/custom-form
 
@@ -103,6 +103,7 @@ kramdown:
 
 # Includes & excludes
 include: ["_pages", "_scripts"]
+exclude:                              # [FIX 1: added missing "exclude:" key]
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -200,8 +201,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Ahmadi]       # [FIX 4: updated from Einstein placeholder]
+  first_name: [Rita, R.]    # [FIX 4: updated from Einstein placeholder]
 
   style: apa
   locale: en
