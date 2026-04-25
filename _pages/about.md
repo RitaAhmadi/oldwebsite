@@ -12,7 +12,7 @@ profile:
   more_info: fatimah dot rita dot ahmadi at gmail dot com
 
 featured:
-  enabled: true
+  enabled: false
   items:
     - title: "Anyons & Topological Quantum Computation: Unified Theory"
       description: "Quantum Zeitgeist covers the new paper proposing a braided fusion 2-category as a unified formalism for anyonic theories and topological quantum computing."
