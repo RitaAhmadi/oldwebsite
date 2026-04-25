@@ -5,12 +5,12 @@ title: blog
 nav: false
 nav_order: 1
 pagination:
-  enabled: true
+  enabled: false
   collection: posts
   permalink: /page/:num/
   per_page: 5
   sort_field: date
-  sort_reverse: true
+  sort_reverse: false
   trail:
     before: 1
     after: 3
