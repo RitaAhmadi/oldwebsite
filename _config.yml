@@ -103,8 +103,6 @@ kramdown:
 
 # Includes & excludes
 include: ["_pages", "_scripts"]
-exclude:
-  - _pages/blog.md
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -127,6 +125,7 @@ exclude:
   - _pages/books.md
   - _pages/dropdown.md
   - _pages/profiles.md
+  - _pages/blog.md
   - README.md
   - readme_preview/
   - vendor
@@ -245,7 +244,6 @@ filtered_bibtex_keywords:
     award,
     award_name,
     bibtex_show,
-    blog,
     code,
     google_scholar_id,
     html,
