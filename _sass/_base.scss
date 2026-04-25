@@ -2,6 +2,34 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// Font overrides
+body {
+  font-family: $font-sans;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.post-title,
+.navbar-brand,
+.header-bar h1 {
+  font-family: $font-serif;
+  font-weight: 300;
+}
+
+.nav-link,
+.navbar-nav {
+  font-family: $font-sans;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+}
+
 // Typography
 
 p,
@@ -315,7 +343,6 @@ ul.task-list input[type="checkbox"] {
         width: 1.7rem;
         height: 1.7rem;
         margin-bottom: 0.5rem;
-        // margin: 0.5rem;
       }
 
       svg {
@@ -1176,7 +1203,6 @@ swiper-container {
 }
 
 // Ninja Keys
-// for more options, check https://github.com/ssleptsov/ninja-keys?tab=readme-ov-file#css-variables
 ninja-keys {
   --ninja-accent-color: var(--global-theme-color);
   --ninja-icon-size: 0px;
@@ -1305,40 +1331,36 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
-// popover is used for annotation in bib.liquid
+// popover
 .popover {
   background-color: var(--global-bg-color);
   border-color: var(--global-divider-color);
 
   .popover-header {
-    color: var(--global-text-color); // Header text color
+    color: var(--global-text-color);
     border-bottom: 1px solid var(--global-divider-color);
   }
 
   .popover-body {
-    color: var(--global-text-color); // Body text color
+    color: var(--global-text-color);
   }
 }
 
 .bs-popover-top {
-  // arrow fill color
   .arrow::after {
     border-top-color: var(--global-bg-color);
   }
 
-  // arrow border color
   .arrow:before {
     border-top-color: var(--global-divider-color);
   }
 }
 
 .bs-popover-bottom {
-  // arrow fill color
   .arrow::after {
     border-bottom-color: var(--global-bg-color);
   }
 
-  // arrow border color
   .arrow:before {
     border-bottom-color: var(--global-divider-color);
   }
@@ -1353,7 +1375,7 @@ ninja-keys::part(ninja-input-wrapper) {
 figure.cover {
   display: inline-block;
   text-align: center;
-  margin: 0.5rem; /* adjust as needed */
+  margin: 0.5rem;
 
   img {
     vertical-align: bottom;
@@ -1418,7 +1440,6 @@ figure.cover {
     background-color: #b0abb3;
   }
 
-  /* mouse over link */
   a.cover-link:hover {
     color: #23212d !important;
   }
