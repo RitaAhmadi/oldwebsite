@@ -15,17 +15,14 @@ featured:
   enabled: true
   items:
     - title: "Anyons & Topological Quantum Computation: Unified Theory"
-      type: article
       description: "Quantum Zeitgeist covers the new paper proposing a braided fusion 2-category as a unified formalism for anyonic theories and topological quantum computing."
       link: "https://quantumzeitgeist.com/anyons-and-topological-quantum-computation-unified-by-category-theory/"
 
     - title: "BBC: What is the weirdest thing in the universe?"
-      type: press
       description: "Our debate was featured on BBC News."
       link: "https://www.bbc.co.uk/news/articles/c8xg7r4qqz4o"
 
     - title: "Interview: Research Insights with Dr Rita Ahmadi"
-      type: interview
       description: "Imperial College QuEST blog — discussing quantum algorithms, category theory, and curiosity-driven research."
       link: "https://blogs.imperial.ac.uk/imperialquest/2024/10/30/research-insights-with-dr-rita-ahmadi/"
 
